@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+body { 
+  background: black;
+}
+
+*:focus {
+  outline-color: red !important;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: black;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-caption h2 {
+  text-transform: uppercase;
+  text-shadow: -1px 0px 10px black;
+}
+
+.carousel-caption p {
+  font-size: 110%;
+  text-shadow: -1px 0px 8px black;
+}
+
+.shopify-buy-frame--product {
+  display: inline-block !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  top: 50%;
+}
+
+.container h1, .container p {
+  color: white;
+}
+
+.shopify-buy__btn-wrapper {
+  margin-bottom: 10px;
+}
