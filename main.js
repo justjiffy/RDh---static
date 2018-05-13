@@ -1,6 +1,9 @@
 
-TweenMax.set(['.fade-in', '#title', '#collection-component-42b9525f806'], {autoAlpha: 0});
-TweenMax.set('#bg', {autoAlpha: 0,});
+TweenMax.set(['.fade-in',
+			  '#title',
+			  '#collection-component-42b9525f806',
+			  '#bg'],
+		 {autoAlpha: 0});
 TweenMax.set('.slide-in', {x: -500});
 
 var pageHeight = $(document).height();
