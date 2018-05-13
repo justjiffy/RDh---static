@@ -3,7 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
  */
-body { 
+body {
   background: black;
 }
 
@@ -11,14 +11,15 @@ body {
   outline-color: red !important;
 }
 
-a { 
+a {
  color: white;
+ margin: 0 10px;
 }
 
 a:hover {
   text-decoration: none;
   color: white;
-  text-shadow: -1px 0px 8px yellow;
+  text-shadow: -1px 0px 8px darkred;
   transition: all 0.3s linear;
 }
 
@@ -54,7 +55,15 @@ header > img {
 }
 
 .carousel-control-next, .carousel-control-prev {
-  top: 50%;
+  top: 0;
+  text-align: center;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+}
+.carousel-control-next-icon {
+  background-position-x: 15px;
 }
 
 .container h1, .container p {
@@ -64,3 +73,22 @@ header > img {
 .shopify-buy__btn-wrapper {
   margin-bottom: 10px;
 }
+
+.slide-1 {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                    url('images/run_downhill_postcards.jpg')
+}
+.slide-2 {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                    url('images/run_downhill_slide2.jpg')
+}
+.slide-3 {
+  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                    url('images/run_downhill_slide3.jpg')
+}
+
+/* @media (orientation: portrait) {
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    transform: translateY(-50px);
+  }
+} */

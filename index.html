@@ -11,8 +11,9 @@
     <title>Run Downhill - Music and Comics</title>
 
     <!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
   </head>
@@ -27,7 +28,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" id="bg" style="background-image: url('images/run_downhill_postcards.jpg')">
+          <div class="carousel-item slide-1 active" id="bg">
             <div class="carousel-caption">
               <h2 class="fade-in">Augmented Reality E.P.</h2>
               <p class="fade-in">Experience how music and comics come to life in this collectible postcard series</p>
@@ -36,23 +37,23 @@
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/run_downhill_slide2.jpg')">
+          <div class="carousel-item slide-2">
             <div class="carousel-caption">
             <h2>DISCOVER RUN DOWNHILL</h2>
-                <iframe style="float: left; display: inline" src="http://www.youtube.com/embed/?listType=user_uploads&list=rundownhillmusic" width="480" height="300"></iframe>
               <p>
-                Run Downhill’s music and graphic narratives are conjoined in a unique form, dubbed the “Song Comic.” Each chapter in the narrative is rendered as a short motion comic video and partnered up with its accompanying song, creating a cinematic mood as rich and compelling as the music itself.</p>
+                Run Downhill’s music and graphic narratives are conjoined in a unique form, dubbed the “Song Comic.” Each chapter in the narrative is rendered as a short motion comic video and partnered up with its accompanying song, creating a cinematic mood as rich and compelling as the music itself.
+              </p>
+              <a href="http://www.youtube.com/embed/?listType=user_uploads&list=rundownhillmusic">WATCH</a>
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('images/run_downhill_slide3.jpg')">
+          <div class="carousel-item slide-3">
             <div class="carousel-caption">
-              <h2>stuff on the web</h2>
               <p>
-			         	<a href="https://youtu.be/lm1X__u4XtA">youtube</a> &middot;
-              	<a href="https://www.facebook.com/rundownhill">facebook</a> &middot;
-              	<a href="https://twitter.com/run_downhill">twitter</a> &middot;
-              	<a href="https://www.instagram.com/run_downhill/">instagram</a>
+			         	<a class="icon" href="https://youtu.be/lm1X__u4XtA"><i class="fab fa-2x fa-youtube-square"></i></a>
+              	<a class="icon" href="https://www.facebook.com/rundownhill"><i class="fab fa-2x fa-facebook"></i></a>
+              	<a class="icon" href="https://twitter.com/run_downhill"><i class="fab fa-2x fa-twitter-square"></i></a>
+              	<a class="icon" href="https://www.instagram.com/run_downhill/"><i class="fab fa-2x fa-instagram"></i></a>
               	<!-- bandcamp
               	cdbaby
               	itunes
@@ -110,6 +111,9 @@
     <!-- Bootstrap core JavaScript -->
 
    <!-- mailchimp pop-up -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"ea125bd9be6e6124525fdf1ad","lid":"a996e12ab6"}) })</script>
   </body>
 
