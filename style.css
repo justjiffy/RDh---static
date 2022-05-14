@@ -38,6 +38,9 @@ header > img {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90% !important;
 }
 
 .carousel-caption h2 {
