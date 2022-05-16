@@ -11,9 +11,13 @@ body {
   outline-color: red !important;
 }
 
-a, h2, p {
+a {
  color: white;
  margin: 5px 10px;
+}
+
+h2 {
+  color: white
 }
 
 a:hover {
