@@ -43,7 +43,11 @@ header > img {
   width: 850px;
   max-width: 60% !important;
 }
-
+.splash {
+    max-width: 60%;
+    height: auto;
+    margin: 7px auto;
+}
 .carousel-caption h2 {
   text-transform: uppercase;
   text-shadow: -1px 0px 10px black;
