@@ -63,9 +63,6 @@ header > img {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 .carousel-caption h2 {
   text-transform: uppercase;
