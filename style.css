@@ -38,6 +38,9 @@ a:hover {
   background-size: cover;
 }
 
+header {
+  text-align: center;
+}
 header > img {
   position: absolute;
   top: 0;
@@ -90,7 +93,7 @@ header > img {
   background-position-x: 15px;
 }
 
-.container h1, .container p {
+h1, .container p {
   color: white;
 }
 
@@ -103,9 +106,9 @@ header > img {
                     url('images/RockandRoll_May16_SingleBG.jpg')
 }
 .slide-2 {
-  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+/*  background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
                     url('images/Something Will Come of This_CDBaby Album Cover Web Version.jpg');
-  background-position: bottom;
+  background-position: bottom;*/
 }
 .slide-3 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
