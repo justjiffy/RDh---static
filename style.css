@@ -78,7 +78,12 @@ header > img {
 }
 
 .shopify-buy-frame--product {
-  display: inline-block !important;
+  display: block !important;
+  margin: 20px auto;
+}
+
+.shopify-buy-frame--product * {
+  font-family: courier !important;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -91,6 +96,35 @@ header > img {
 }
 .carousel-control-next-icon {
   background-position-x: 15px;
+}
+
+div h1 {
+  font-family: courier;
+  margin: 50px 0 30px 0;
+  font-size: 48px;
+  text-align: center;
+}
+
+div h2, div button {
+  margin:  20px auto;
+  text-align: center;
+  display: block;
+
+}
+
+div p strong {
+  text-transform: uppercase;
+}
+
+button {
+  background: white; 
+  padding: 10px 30px;
+  font-family: courier;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e6e4e4;
 }
 
 h1, .container p {
@@ -108,7 +142,6 @@ h1, .container p {
 .slide-2 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
                     url('images/Texture.png');
-  background-position: center;
 }
 .slide-3 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
