@@ -5,10 +5,11 @@
  */
 body {
   background: black;
+  color: white;
 }
 
 *:focus {
-  outline-color: red !important;
+  outline-color: rgb(227, 142, 7) !important;
 }
 
 a {
@@ -20,7 +21,7 @@ h2 {
   color: white
 }
 
-a:hover {
+a:hover, a:active, a:focus {
   text-decoration: none;
   color: white;
   text-shadow: -1px 0px 8px darkred;
@@ -66,7 +67,11 @@ header > img {
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
 .carousel-caption h2 {
   text-transform: uppercase;
   text-shadow: -1px 0px 10px black;
@@ -116,10 +121,18 @@ div p strong {
   text-transform: uppercase;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  font-size: 14px;
+  font-weight: bolder;
+}
 button {
   background: white; 
   padding: 10px 30px;
-  font-family: courier;
+  font-family: "Arial Black";
 }
 
 button:hover {
@@ -141,7 +154,7 @@ h1, .container p {
 }
 .slide-2 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
-                    url('images/Texture.png');
+                    url('images/rattler.jpg');
 }
 .slide-3 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
