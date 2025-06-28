@@ -144,6 +144,9 @@ h1, .container p {
   color: white;
 }
 
+h4 a {
+  font-size: 12px;
+}
 .shopify-buy__btn-wrapper {
   margin-bottom: 10px;
 }
@@ -155,7 +158,17 @@ h1, .container p {
 .slide-2 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
                     url('images/rattler_bg.jpg');
+                    background-color: black;
 }
+/* .slide-2-overlay {
+    background-image: url('images/T.J.\ Head\ of\ Snake.png');
+    background-size: 400px;
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin; 0 auto;
+  box-shadow: 0 0 8px 8px black inset;
+} */
 .slide-3 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
                     url('images/run_downhill_slide3.jpg')
