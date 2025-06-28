@@ -154,7 +154,7 @@ h1, .container p {
 }
 .slide-2 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
-                    url('images/rattler.jpg');
+                    url('images/rattler_bg.jpg');
 }
 .slide-3 {
   background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
