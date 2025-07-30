@@ -114,7 +114,7 @@ div h2, div button {
   margin:  20px auto;
   text-align: center;
   display: block;
-
+  -webkit-appearance: none; 
 }
 
 div p strong {
@@ -133,11 +133,13 @@ button {
   background: white; 
   padding: 10px 30px;
   font-family: "Arial Black";
+  -webkit-appearance: none;
 }
 
 button:hover {
   cursor: pointer;
   background-color: #e6e4e4;
+  -webkit-appearance: none;
 }
 
 h1, .container p {
