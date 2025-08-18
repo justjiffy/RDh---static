@@ -120,7 +120,12 @@ div h2, div button {
 div p strong {
   text-transform: uppercase;
 }
-
+#album-art {
+  background-image: url("ttps://i.scdn.co/image/ab67616d0000b273f9d671b66259c1c361b37120");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+}
 #mc_embed_signup {
   text-align: left;
   max-width: 350px;
