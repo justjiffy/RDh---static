@@ -135,7 +135,7 @@ div p strong {
   display: block;
 }
 .mc-field-group {
-  text-align: right;
+  text-align: left;
 }
 .social-media {
   display: flex;
@@ -146,6 +146,11 @@ div p strong {
   text-align: center;
   margin-bottom: 10px;
 }
+input[type="submit"] {
+  background-color: white !important;
+  color: black !important;
+}
+
 footer {
   font-size: 14px;
   font-weight: bolder;
@@ -173,6 +178,9 @@ h1, .container p {
 
 h4 {
   text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 h4 a {
