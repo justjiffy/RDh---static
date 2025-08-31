@@ -179,6 +179,7 @@ h1, .container p {
 h4 {
   text-align: center;
   width: 100%;
+  max-width: 800px;
   padding: 10px;
   margin: 0 auto;
 }
