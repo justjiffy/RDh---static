@@ -13,54 +13,86 @@
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
         }
+        .cover {
+            opacity: 1;
+        }
+        .cover img {
+            transition: filter 0.5s ease-in-out;
+            filter: brightness(100%);
+        }
+        .cover img:hover {
+            filter: brightness(110%);
+        }
+
         a {
             text-decoration: none;
+            opacity: 0.85
+        }
+        a:hover {
+            opacity: 1;
+        }
+        .icon {
+            font-size: 30px;
         }
         div {
             width: 85%;
             max-width: 600px;
             margin: 0 auto;
+            padding-bottom: 20px;
+        }
+        li {
+            text-align: left;
+        }
+        footer {
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <h4>For Your Consideration</h4>
     <h1>THE RATTLER</h1>
-    <a href="https://open.spotify.com/album/1XrcIxRekcoMyPLGqF63N5?si=WPjHdytgT9qHLtcz0EjLyQ"><img src="../images/RATTLER-cover-with-play.jpg"></a>
-    </div> 
+    <a class="cover" href="https://open.spotify.com/album/1XrcIxRekcoMyPLGqF63N5?si=WPjHdytgT9qHLtcz0EjLyQ"><img src="../images/RATTLER-cover-with-play.jpg"></a> 
 
-    <div>
-        <p>RUN DOWNHILL is the brainchild of multi-Grammy® Award-winning artist T.J. Troy, a Los Angeles-based musician/writer/producer, blending his original music, comic book art and narrative, and multimedia live performance into a single integrated ensemble. The group’s newest album features 10 new songs, 5 instrumental and 5 lyric-driven, brought to life with dramatic performances from the band’s core trio of T.J. (guitar, baritone guitar, drums/percussion, and voice), Nate LaPointe (electric guitar and pedal steel), and Adam Levy (bass), alongside the multi-talented guest artists joining the trio throughout the collection.</p>
+    <div id="copy">
+        <p><strong>RUN DOWNHILL</strong> is the brainchild of multi-Grammy® Award-winning artist T.J. Troy, a Los Angeles-based musician/writer/producer, blending his original music, comic book art and narrative, and multimedia live performance into a single integrated ensemble. The group’s newest album features 10 new songs, 5 instrumental and 5 lyric-driven, brought to life with dramatic performances from the band’s core trio of T.J. (guitar, baritone guitar, drums/percussion, and voice), Nate LaPointe (electric guitar and pedal steel), and Adam Levy (bass), alongside the multi-talented guest artists joining the trio throughout the collection.</p>
 
         <p>In 9 original songs and one cover rendition of Will Oldham’s “Drinking Woman”, the record alternates between vocal-driven and instrumental songs, showcasing writer T.J. Troy’s melodic and lyric sensibilities alongside the talents of the album’s special guests:</p>
         <ul>
-            <li>Yasmine Azaiez - Violin (Late for work; running home, The Rattler)</li>
-            <li>Joe Garza - Rhythm Guitar (Spaces that have been filled, Let It Roll)</li>
-            <li>Jeff Jensen - Lead Electric Guitar (Spaces that have been filled)</li>
-            <li>David Longoria - Trumpet (That I were Comatose, Let It Roll)</li>
-            <li>Phil Parlapiano - Hammond B3 Organ (Drinking Woman, Hungry for Something, Spaces that have been filled)</li>
-            <li>Leon Rothenberg - Effects Processing (Gone are the days when it rained)</li>
-            <li>Clarence “Slide” Spears - Trombone (That I were Comatose)</li>
-            <li>Derek Stein - Cello (The Rattler)</li>
+            <li><strong>Yasmine Azaiez</strong> - Violin (Late for work; running home, The Rattler)</li>
+            <li><strong>Joe Garza</strong> - Rhythm Guitar (Spaces that have been filled, Let It Roll)</li>
+            <li><strong>Jeff Jensen</strong> - Lead Electric Guitar (Spaces that have been filled)</li>
+            <li><strong>David Longoria</strong> - Trumpet (That I were Comatose, Let It Roll)</li>
+            <li><strong>Phil Parlapiano</strong> - Hammond B3 Organ (Drinking Woman, Hungry for Something, Spaces that have been filled)</li>
+            <li><strong>Leon Rothenberg</strong> - Effects Processing (Gone are the days when it rained)</li>
+            <li><strong>Clarence “Slide” Spears</strong> - Trombone (That I were Comatose)</li>
+            <li><strong>Derek Stein</strong> - Cello (The Rattler)</li>
         </ul>
 
         <p>Run Downhill, the perfect accompaniment to long road trips throughout quintessential Americana.</p>
     </div>
 
-    <div>
-        <a href="https://open.spotify.com/artist/5mKkeROyOzzkaY9sK2TPu2">
+    <div id="player">
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1XrcIxRekcoMyPLGqF63N5?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <div id="social">
+        <a class="icon" href="https://open.spotify.com/artist/5mKkeROyOzzkaY9sK2TPu2">
             <i class="fa-xl fa-brands fa-spotify"></i>
         </a>
-        <a href="https://www.youtube.com/channel/UCfQRFngPpePCcOsiZmlP_fA">
+        <a class="icon" href="https://www.youtube.com/channel/UCfQRFngPpePCcOsiZmlP_fA">
             <i class="fa-xl fa-brands fa-youtube"></i>
         </a>
-        <a href="https://rundownhill.bandcamp.com/album/the-rattler-and-other-songs">
+        <a class="icon" href="https://rundownhill.bandcamp.com/album/the-rattler-and-other-songs">
             <i class="fa-xl fa-brands fa-bandcamp"></i>
         </a>
-        <a href="https://www.instagram.com/run_downhill/?hl=en">
+        <a class="icon" href="https://www.instagram.com/run_downhill/?hl=en">
             <i class="fa-xl fa-brands fa-instagram"></i>
         </a>
     </div>
 
+    <footer>
+        <a href="https://www.recordingacademy.com/awards/voting-and-solicitation-guidelines">Recording Academy - Voting and Solicitation Guidelines</a>
+        <h3>THANK YOU FOR YOUR CONSIDERATION</h3>
+    </footer>
 </body>
 </html>
