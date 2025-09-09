@@ -3,6 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
  */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   background: black;
   color: white;
@@ -158,8 +160,10 @@ footer {
 button, .button {
   background: white; 
   padding: 10px 30px;
-  font-family: "Arial Black", Arial, Helvetica, sans-serif;    display: block;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 10px auto;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 button:hover, .button:hover {
